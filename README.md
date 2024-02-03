@@ -38,3 +38,136 @@ These terms and conditions are effective as of 2022-02-19
 **Contact Us**
 
 If you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me at justtouchinfo@gmail.com.
+
+
+Veritabanı Katmanı
+
+using System;
+using System.Data.SqlClient;
+
+namespace CsvFileProcessor.Data
+{
+    public class CsvDataDal
+    {
+        private readonly string connectionString;
+
+        public CsvDataDal(string connectionString)
+        {
+            this.connectionString = connectionString;
+        }
+
+        public void InsertCsvData(CsvData csvData)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand("INSERT INTO CsvDataTable (Column1, Column2, ..., Column33) " +
+                                                           "VALUES (@Column1, @Column2, ..., @Column33)", connection))
+                {
+                    command.Parameters.AddWithValue("@Column1", csvData.Column1);
+                    // Diğer parametreler buraya eklenir...
+                    command.Parameters.AddWithValue("@Column33", csvData.Column33);
+
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+    }
+}
+
+Veri Transferi Nesnesi
+
+
+using CsvHelper;
+using CsvFileProcessor.Data;
+using System;
+using System.Collections.Generic;
+using System.IO;
+
+namespace CsvFileProcessor.Services
+{
+    public class CsvProcessorService
+    {
+        private readonly CsvDataDal csvDataDal;
+
+        public CsvProcessorService(string connectionString)
+        {
+            csvDataDal = new CsvDataDal(connectionString);
+        }
+
+        public void ProcessCsvFiles(string directoryPath)
+        {
+            // FileSystemWatcher oluştur
+            using (FileSystemWatcher watcher = new FileSystemWatcher(directoryPath, "*.csv"))
+            {
+                // Yeni dosya oluşturulduğunda tetiklenecek olay
+                watcher.Created += (sender, e) => OnCsvFileCreated(e.FullPath);
+
+                // Değişiklikleri izlemeye başla
+                watcher.EnableRaisingEvents = true;
+
+                Console.WriteLine($"CSV dosyalarını izlemeye başladı: {directoryPath}");
+
+                // Uygulamayı çalışır durumda tutmak için bir süre bekle
+                Console.WriteLine("Çıkış yapmak için bir tuşa basın...");
+                Console.ReadKey();
+            }
+        }
+
+        private void OnCsvFileCreated(string filePath)
+        {
+            try
+            {
+                // CSV dosyasını oku
+                List<CsvData> csvDataList = ReadCsvFile(filePath);
+
+                // Her satır için veritabanına yaz
+                foreach (var csvData in csvDataList)
+                {
+                    csvDataDal.InsertCsvData(csvData);
+                }
+
+                Console.WriteLine($"CSV dosyası başarıyla işlendi: {filePath}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Hata oluştu: {ex.Message}");
+            }
+        }
+
+        private List<CsvData> ReadCsvFile(string filePath)
+        {
+            using (var reader = new StreamReader(filePath))
+            using (var csv = new CsvReader(reader))
+            {
+                var records = csv.GetRecords<CsvData>();
+                return new List<CsvData>(records);
+            }
+        }
+    }
+}
+
+
+Program.cs
+
+
+using CsvFileProcessor.Services;
+
+namespace CsvFileProcessor
+{
+    class Program
+    {
+        static void Main()
+        {
+            string connectionString = "your_database_connection_string";
+            string directoryPath = "your_csv_directory_path";
+
+            CsvProcessorService csvProcessorService = new CsvProcessorService(connectionString);
+            csvProcessorService.ProcessCsvFiles(directoryPath);
+        }
+    }
+}
+
+
+
