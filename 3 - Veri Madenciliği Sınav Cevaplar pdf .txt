@@ -1,0 +1,46 @@
+1. T1 veri setini paketleme (binning) yöntemi (3 paket, eşit derinlik, ortanca) ile düzleştirildiğinde 89'un yeni değeri ne olur?
+•	Çözüm: Veri seti 15 elemanlıdır. Eşit derinlik (equal-depth) dendiği için her pakette 15/3=5 veri bulunur.
+•	Veriler sıralandığında: [20, 66, 71, 75, 78], [80, 89, 95, 100, 102], [105, 121, 166, 210].
+•	89 değeri 2. pakettedir. Bu paketin ortancası (median) 95'tir.
+•	Cevap: c) 95.
+2. Aşağıdakilerden hangisi Gözetimli (Supervised) öğrenmedir?
+•	Cevap: d) Sahtekarlık olabilecek davranışları bulmak.. (Sahtekarlık tespiti genellikle geçmiş etiketli verilere dayalı bir sınıflandırma problemidir.)
+3. Hangi veri çeşidi içerisinde diğerlerinden daha fazla bilgi barındırır?
+•	Cevap: a) Ratio (Oran).. (Oran verileri gerçek sıfır noktasına sahip olduğu için en zengin veri tipidir.)
+4. Aşağıdakilerden hangisi olasılık tabanlı bir sınıflandırma yöntemidir?
+•	Cevap: e) Naive Bayes.. (Bayes teoremine ve olasılık hesaplarına dayanır.)
+5. V1 ve V2 ikili vektörleri için Jaccard katsayısı benzerlik ölçütü nedir?
+•	V1=011001101010, V2=110101101101.
+•	M11 (ikisi de 1): 2., 6., 7. pozisyonlar (3 tane).
+•	M01 (0 ve 1): 1., 4., 10., 12. pozisyonlar (4 tane).
+•	M10 (1 ve 0): 3., 5., 9., 11. pozisyonlar (4 tane).
+•	Jaccard=M11/(M11+M10+M01)=3/(3+4+4)=3/11≈0.27.
+•	Cevap: d) 0.2 (En yakın seçenek).
+6. Eksik veriler "Sınıf bazında ortalama" yöntemi ile doldurulacak olursa X1 ve X2 ne olur?
+•	Cevap: d) 4 ve 3. (Sınıf etiketlerine göre gruplandırılıp ortalamalar hesaplandığında bu değerlere ulaşılır.)
+7. Rastgeleliğin ve belirsizliğin ölçüsü anlamına gelen terim hangisidir?
+•	Cevap: b) Entropy..
+8. K-means (k=2) yönteminde C1 kümesinin küme içi hatası (e2) ne olur?
+•	Cevap: d) 26.67.
+9. T1 veri setinin IQR yardımı ile bulunan sapan verileri nelerdir?
+•	Cevap: e) 20, 166, 210.. (Bir önceki çözümde hesaplandığı üzere alt ve üst sınırların dışındaki değerlerdir.)
+10. V1 ve V2 ikili vektörleri için Yalın Uyum katsayısı (SMC) nedir?
+•	SMC=(M11+M00)/Toplam=(3+1)/12=4/12=0.33.
+•	Cevap: e) 0.3.
+11. "Araç özellikleri kullanılarak fiyat tahminlemesi yapmak" hangi problemdir?
+•	Cevap: a) Regresyon..
+12. Beklenen değerlerden sapan aykırı değerlere veya hatalara ne ad verilir?
+•	Cevap: e) Gürültü (Noise)..
+13. Aşağıdakilerden hangisi makine öğrenmesi sınıflandırma yöntemi değildir?
+•	Cevap: e) K-ortalamalar (K-means) Yöntemi.. (K-means bir kümeleme yöntemidir.)
+14. Bilgi keşfinde bulunan bilginin sağlaması gereken özelliklerden değildir?
+•	Cevap: b) Basit.. (Bilginin basit olması bir avantajdır ancak teknik bir "zorunluluk" veya "keşif kriteri" olarak diğerleri (önemli, yararlı, gizli) kadar kritik değildir.)
+15. Aşağıdakilerden hangisi eksik veri problemini çözen veri ön-işleme yöntemlerinden değildir?
+•	Cevap: a) Normalizasyon ile tamamlama.. (Normalizasyon veriyi belirli bir aralığa (0-1 gibi) çekmek içindir, eksik veriyi doldurmak için kullanılmaz.)
+16. Aşağıdakilerden hangisi veri ön-işleme süreçlerinden değildir?
+•	Cevap: a) Veri toplama.. (Veri toplama, ön-işlemeden önceki bir aşamadır.)
+17. Karar Ağaçları için hangisi doğru değildir?
+•	Cevap: c) Çoğunlukla farklı sınıfa ait örneklerin bulunduğu nitelikler düğüm olarak seçilir.. (Aksine, aynı sınıfı en iyi temsil eden saf nitelikler seçilir.)
+18. "Farklı kümelerdeki herhangi iki eleman arasındaki en büyük uzaklık" hangi yöntemdir?
+•	Cevap: e) Complete linkage..
+

@@ -1,0 +1,60 @@
+Görsel 3: Veri Madenciliği Soruları (1-11)
+1.	"Riski ve risksiz kredi kartı başvurularını bulmak" ......... problemidir?
+o	Cevap: a) Sınıflandırma. Kredi başvurularını "riskli" veya "risksiz" gibi önceden tanımlanmış iki gruba ayırmak bir sınıflandırma işlemidir.
+2.	"Harcama alışkanlığı benzer olan kredi kartı sahiplerini bulmak" ......... problemidir?
+o	Cevap: b) Kümeleme. Benzer özelliklere sahip verileri gruplandırmak, hedef sınıflar önceden belli olmadığı için kümelemedir.
+3.	"Araç özellikleri kullanılarak fiyat tahminlemesi yapmak" ......... problemidir?
+o	Cevap: c) Regresyon. Fiyat gibi sürekli (sayısal) bir değeri tahmin etmek regresyon analizidir.
+4.	Aşağıdakilerden hangisi veri ambarlarının özelliklerinden değildir?
+o	Cevap: e) Kolay güncellenebilir. Veri ambarları genellikle "salt okunur" (non-volatile) yapıdadır; veriler silinmez veya kolayca değiştirilmez, sadece yeni veriler eklenir.
+5.	Aşağıdakilerden hangisi ETL süreçlerinden değildir?
+o	Cevap: e) Sorgulama. ETL; Çıkarım (Extraction), Dönüşüm (Transformation) ve Yükleme (Loading) aşamalarından oluşur. Sorgulama ise veri ambarı dolduktan sonra yapılır.
+6.	Aşağıdakilerden hangisi Karar Ağaçları için doğru değildir?
+o	Cevap: e) Çoğunlukla farklı sınıfa ait örneklerin bulunduğu nitelikler düğüm olarak seçilir. Tam tersine, karar ağaçları saflığı (purity) artırmak için aynı sınıfa ait verileri en iyi ayıran nitelikleri seçer.
+7.	Aşağıdakilerden hangisi Veri Gölü için yanlıştır?
+o	Cevap: d) Verilere erişim ve değiştirme Veri Ambarlarına göre kolaydır. Veri gölleri ham veri tuttuğu için yapılandırılmış veri ambarlarına göre erişim ve yönetim genellikle daha karmaşıktır.
+8.	Hangi veri çeşidi içerisinde diğerlerinden daha fazla bilgi barındırır?
+o	Cevap: d) Ratio (Oran). Oran verileri; sıralama, aralık ve "gerçek sıfır" noktasına sahip oldukları için en yüksek bilgi düzeyine sahiptir.
+9.	T1 veri setinin beş-sayı-özeti nedir?
+o	Verileri sıralayalım: 20, 66, 71, 75, 78, 80, 88, 89, 95, 100, 102, 105, 121, 166, 210. (15 veri)
+o	Min: 20, Q1: 75, Medyan: 89, Q3: 105, Max: 210.
+o	Cevap: a) 20 - 75 - 89 - 105 - 210.
+10.	T1 veri setinin IQR yardımı ile bulunan sapan verileri nelerdir?
+o	IQR = Q3 - Q1 = 105 - 75 = 30.
+o	Alt Sınır: 75 - (1.5 * 30) = 30. (20 bu değerin altında kaldığı için sapandır).
+o	Üst Sınır: 105 + (1.5 * 30) = 150. (166 ve 210 bu değerin üstünde olduğu için sapandır).
+o	Cevap: b) 20, 166, 210.
+11.	Binning (3 paket, eşit genişlik, ortalama) ile düzleştirildiğinde 80'in yeni değeri ne olur?
+o	Genişlik = (210 - 20) / 3 = 63.33.
+o	
+1.	Paket: [20 - 83.33]. Bu paketteki veriler: 20, 66, 71, 75, 78, 80.
+o	80 bu pakettedir. Paketin ortalaması: (20+66+71+75+78+80) / 6 = 65.
+o	Cevap: a) 65.
+________________________________________
+Görsel 4: Veri Madenciliği Soruları (12-22)
+12.	Aşağıdakilerden hangisi bilgi keşfi için bulunan bilginin sağlaması gereken özelliklerden değildir?
+o	Cevap: d) Önceden bilinmeyen. (Aslında bu bir özelliktir, ancak şıklar arasında "Basit" veya "Doğrulanabilir" gibi seçenekler varsa bağlam değişebilir; görseldeki d şıkkı "Önceden bilinmeyen" teknik bir gerekliliktir.)
+13.	Tarihsel olarak sıralamak istenirse ilk olarak aşağıdakilerden hangisi gelir?
+o	Cevap: d) İlişkisel veri tabanları. (Büyük veri ve veri ambarlarından önce gelmektedir.)
+14.	Aşağıdakilerden hangisi makine öğrenmesi sınıflandırma yöntemi değildir?
+o	Cevap: e) K-ortalamalar Yöntemi. (K-means bir kümeleme yöntemidir, sınıflandırma değildir.)
+15.	Rastgeleliğin ve belirsizliğin ölçüsü anlamına gelen terim hangisidir?
+o	Cevap: c) Entropy. (Entropi, bir veri kümesindeki düzensizliği/belirsizliği ölçer.)
+16.	V1 ve V2 ikili vektörleri için Yalın Uyum katsayısı (Simple Matching Coefficient) nedir?
+o	V1: 011001101010, V2: 110101101101
+o	Eşleşenler (ikisi de aynı olanlar): 2., 6., 7., 9. pozisyonlar (4 adet). Toplam 12 bit.
+o	SMC = 4 / 12 = 0.33.
+o	Cevap: b) 0.3.
+17.	"Farklı kümelerdeki herhangi iki eleman arasındaki en büyük uzaklık" hangi uzaklık ölçme metodudur?
+o	Cevap: b) Complete linkage. (En uzak komşu yaklaşımı.)
+18.	Verisetinin tümünü almak yerine küçük tek bir örneklem kümesini temsilci olarak alıp kümeleme yapan yöntem hangisidir?
+o	Cevap: c) Clara. (Büyük veri kümeleri için kullanılan bir örnekleme yöntemidir.)
+19.	Veri setindeki her veriyi ayrı bir küme olarak başlatıp her aşamada en yakın verileri birleştiren yöntem hangisidir?
+o	Cevap: a) Agnes. (Agglomerative Nesting - Birleştirici hiyerarşik kümeleme.)
+20.	Hangisi/leri veri kalitesi sorunlarına örnektir? (Gürültü, Tekrarlanan veriler, Eksik değerler)
+o	Cevap: e) I-II-III. Hepsi veri kalitesini bozan unsurlardır.
+21.	Nominal nitelik türü aşağıdaki özelliklerden hangisine sahiptir?
+o	Cevap: a) Farklılık ve eşitlik. (Sadece kategorileri ayırt eder, sıralama veya matematiksel işlem yapılamaz.)
+22.	Hangisi Principal Component Analysis (PCA)'nın kullanım alanı değildir?
+o	Cevap: c) Verilerde daha iyi genelleme. (PCA temel olarak boyut indirgeme ve görselleştirme için kullanılır, genelleme doğrudan bir PCA amacı değildir.)
+
