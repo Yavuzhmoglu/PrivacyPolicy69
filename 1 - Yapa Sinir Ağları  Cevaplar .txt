@@ -1,0 +1,21 @@
+1 - Yapay sinir ağları eğitim süreçleri - Giriş, İşleme, Çıkış 
+2-  Backpropagation  - Tüm Katmanlar 
+3-  YSA da yer alan katman - Ara Katman 
+4- YSA hangi tür verileri işlemek için kullanılır - Her Türlü veri tipi 
+5- YSA avantajları -  Paralel işleme, öğrenme yeteneği
+6- Yanlış hiperparametreler sonucu - Daha yavaş ve düşük doğruluk sonucları üretir
+7- Veri kümesinde çıkış etiketleri yok ise - Danışmansız öğrenmedir. 
+8- Geri yayılım algoritması - Eğitim aşaması 
+9 - Perceptron Aşamaları - 1 Ağırlıkarı baslat 4 çıkış değerini gesapla 3 Çıkışları güncelle 2 bir sonraki örneğe git
+10-  Geri yayılım algoritması - Ağın eğimi sırasında hatayı geri yaymak 
+11 - YSA Katmanları bulunabili - Giriş Çıkış Gizli 
+12- YSA nerde kulaılamaz - Matemetiksel hesaplamalar 
+13- YSA için yanlıştır -  Bir ağ modelinde gizli katmanda en az giriş katmanındaki nöron sayısı kadar nöron bulunmalıdır
+14- YSA Ağırlık ve Eşik değerleri - Rasgele belrlenir
+15- Toplama fonksiyonu olmauam - Ortalama
+16- Overfitting - Modelin karmaşıklığının fazla olması 
+17 - Transfer Learning  - Bir modelin başka probllme uyarlanması 
+18 - YSA ilhamı - biyolojik sinir sistemleri 
+19 - Learinng Rate - Arğrılıkların güncellenme oranı
+20- - Aktiviasyon - Sigmoid 
+21- Sinapslar PErceptron - Ağırlıklar 
