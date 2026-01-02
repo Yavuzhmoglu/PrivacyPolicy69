@@ -1,0 +1,52 @@
+•	1. Soru: Overfitting'i azaltmak için uygun yöntem hangisidir?
+o	Cevap: A) Eğitim verisini artırmak
+•	2. Soru: Çok sayıda özelliğe sahip veri kümesinde karar ağacı kullanıldığında ana sorun nedir?
+o	Cevap: C) Aşırı uyum (overfitting)
+•	3. Soru: Entropi değeri sıfır olan bir düğüm ne anlama gelir?
+o	Cevap: B) Düğüm homojendir (tek sınıf)
+•	4. Soru: Decision Tree algoritması neden derinleştikçe overfitting riski taşır?
+o	Cevap: C) Model her veriyi ezberlemeye başlar
+•	5. Soru: Hangisi doğrusal regresyon modelinde bağımlı değişken olabilir?
+o	Cevap: D) Ev fiyatı
+•	6. Soru: Lojistik regresyon çıktısı neden 0-1 aralığındadır?
+o	Cevap: C) Sigmoid fonksiyonu nedeniyle
+•	7. Soru: Lojistik regresyonda sınıflandırma sınırı nasıl belirlenir?
+o	Cevap: A) 0.5 eşik değeriyle
+•	8. Soru: K-means algoritmasında küme sayısını belirlemek için hangi yöntem kullanılır?
+o	Cevap: D) Elbow (Dirsek) yöntemi
+•	9. Soru: K-means algoritmasında kümeler nasıl güncellenir?
+o	Cevap: A) En yakın merkezlere göre yeniden atama
+•	10. Soru: Weka'da bir veri dosyası yüklerken en yaygın kullanılan dosya formatı hangisidir?
+o	Cevap: C) .arff
+•	11. Soru: Weka Explorer'da bir model oluşturmak için hangi sekme kullanılır?
+o	Cevap: B) Classify
+•	12. Soru: Weka'da 'Classify' sekmesinde kullanılan J48 algoritması hangi öğrenme türüdür?
+o	Cevap: C) Karar ağacı (decision tree)
+•	13. Soru: Weka Explorer arayüzünde eğitim verisinin %70'i ile model oluşturulmak istenirse hangisi seçilmelidir?
+o	Cevap: D) Percentage split
+Sayfa 2 (Masa Üstü Çekim):
+•	14. Soru: Hangisi denetimli öğrenmeye örnektir?
+o	Cevap: C) KNN
+•	15. Soru: Hangisi bir regresyon problemidir?
+o	Cevap: B) Bir evin fiyatını tahmin etmek
+•	16. Soru: Aşağıdaki metriklerden hangisi sınıflandırma performansını ölçmez?
+o	Cevap: D) MSE (Mean Squared Error - Regresyon içindir)
+•	17. Soru: Model değerlendirmesi için test verisi neden gereklidir?
+o	Cevap: A) Modelin çalışıp çalışmadığını görmek için (Genelleme yeteneğini ölçmek)
+•	18. Soru: Hangisi veri ön işleme (preprocessing) adımı değildir?
+o	Cevap: B) Model eğitimi
+•	19. Soru: K-fold cross validation neden tercih edilir?
+o	Cevap: B) Modelin farklı veri alt kümelerinde nasıl çalıştığını ölçmek için
+•	20. Soru: Karar ağacında "pruning" (budama) işlemi ne için yapılır?
+o	Cevap: A) Overfitting'i azaltmak
+•	21. Soru: Bir karar ağacında "Information Gain" değeri ne için kullanılır?
+o	Cevap: D) Özellik seçiminde bölme kalitesini ölçmek
+•	22. Soru: Hangisi bir makine öğrenmesi algoritması değildir?
+o	Cevap: D) HTTP
+•	23. Soru: Bir özellik (feature) çok büyük ölçekliyse ne yapılmalı?
+o	Cevap: A) Normalize veya standardize edilir
+•	24. Soru: SVM'in ana amacı nedir?
+o	Cevap: A) Sınıflar arasında en geniş aralıklı ayırıcı çizgiyi (hiperdüzlemi) bulmak
+•	25. Soru: EM algoritmasında "Expectation (E) adımı"nın işlevi nedir?
+o	Cevap: D) Mevcut parametrelerle gizli değişkenlerin beklenen değerlerini hesaplar
+
