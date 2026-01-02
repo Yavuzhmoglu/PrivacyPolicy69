@@ -1,0 +1,43 @@
+1.	Yapay sinir ağları (YSA), hangi konseptten ilham alarak geliştirilmiştir?
+o	Cevap: b) Biyolojik sinir sistemleri (İnsan beynindeki nöron yapısı taklit edilmiştir.)
+2.	Yapay sinir ağları, hangi tür verileri işlemek için kullanılabilir?
+o	Cevap: d) Her türlü veri tipi (Sayısal, metinsel, görsel ve ses verileri işlenebilir.)
+3.	Yapay sinir ağlarında, ağırlıkların ve eşik değerlerinin başlangıçta atanması genellikle nasıl yapılır?
+o	Cevap: a) Rastgele (Eğitimin başlangıcında simetriyi bozmak için rastgele değerler atanır.)
+4.	Yapay sinir ağları, aşağıdaki problemlerden hangisi için kullanılamaz?
+o	Cevap: d) Hesaplamalar (YSA bir hesap makinesi gibi basit aritmetik için değil; sınıflandırma, regresyon ve tanıma gibi karmaşık örüntü işleri içindir.)
+5.	Geri yayılım algoritması, yapay sinir ağlarının hangi aşamasında kullanılır?
+o	Cevap: a) Eğitim (Hata payını azaltmak için ağırlıkların güncellendiği aşamadır.)
+6.	Yapay sinir ağları, hangi avantajlara sahiptir?
+o	Cevap: a) Paralel işleme, öğrenme yeteneği
+7.	Derin öğrenme, hangi tür yapay sinir ağı mimarileri üzerinde yoğunlaşır?
+o	Cevap: c) Çok katmanlı sinir ağları (Derinlik, katman sayısının fazlalığını ifade eder.)
+8.	Yapay sinir ağları, hangi temel yapı taşlarından oluşur?
+o	Cevap: a) Nöronlar (Biyolojik karşılığı olan temel işlem birimidir.)
+9.	Yapay sinir ağlarında, sırasıyla hangi katmanlar bulunabilir?
+o	Cevap: b) Giriş, gizli, çıkış
+10.	Yapay sinir ağlarındaki "transfer learning" yöntemi nedir?
+o	Cevap: a) Bir modelin başka bir probleme uyarlanması (Önceden eğitilmiş bir modelin bilgisini yeni bir görevde kullanmaktır.)
+11.	Yapay sinir ağlarında, "learning rate" parametresi neyi kontrol eder?
+o	Cevap: c) Ağırlıkların güncellenmesini (Ağın ne kadar hızlı veya yavaş öğreneceğini belirler.)
+12.	Yapay sinir ağlarında, hangi katmandaki ağırlıkların geriye doğru yayılım (backpropagation) algoritmasıyla güncellenmesi gerekmektedir?
+o	Cevap: d) Tüm katmanlar (Hata, çıkıştan girişe doğru tüm ağırlıklara yansıtılır.)
+________________________________________
+Görsel 2: 13 - 20 Arasındaki Sorular
+13.	Aşağıdakilerden hangisi yapay sinir ağlarında hücreye gelen net girdiyi işleyerek hücrenin bu girdiye karşılık üreteceği çıktıyı belirler?
+o	Cevap: a) Aktivasyon fonksiyonu (Sigmoid, ReLU gibi fonksiyonlar çıktıyı şekillendirir.)
+14.	Hangi yapay sinir ağı modelinde ağın eğitilmesi sırasında beklenen çıkış değerleri mevcut olmamakla birlikte ağ tarafından oluşturulan çıktının iyi veya kötü olup olmadığına dair bilgi verilerek eğitim gerçekleştirilir?
+o	Cevap: c) Destekleyici (Takviyeli) öğrenme (Reinforcement Learning; ödül ve ceza mekanizmasıdır.)
+15.	Hangi öğrenme modelinde yapay sinir ağı önce eğitilir, daha sonra eğitilen model kullanılır; model kullanılırken ağın üzerindeki ağırlıklarda bir değişiklik olmaz?
+o	Cevap: b) Statik öğrenme
+16.	Aşağıdakilerden hangisi toplama fonksiyonu çeşitlerinden biri değildir?
+o	Cevap: a) Ortalama (Genellikle Toplam, Maksimum, Minimum gibi net girdi fonksiyonları kullanılır; "Ortalama" standart bir birleştirme fonksiyonu değildir.)
+17.	Aşağıdakilerden hangisi yapay sinir ağlarının yapısında yer alır?
+o	Cevap: b) Ara katman (Hidden layer olarak da bilinir.)
+18.	Geriye yayılım algoritmasında ağın hangi bileşenleri güncellenir?
+o	Cevap: a) Ağırlıklar (Hata payını azaltmak için ağırlık ve bias değerleri güncellenir.)
+19.	Hopfield ağları için verilen aşağıdaki ifadelerden hangileri doğrudur?
+o	Cevap: d) Hepsi doğrudur (Basit bir modeldir, bağlantılar çift yönlü ve simetriktir.)
+20.	Aşağıdakilerden hangisi yapay sinir ağlarının avantajlarından biri değildir?
+o	Cevap: d) Ağın yapısının belirlenmesinde kesin kurallar vardır (Tam tersine, YSA yapısını belirlemek (katman sayısı, nöron sayısı vb.) genellikle deneme-yanılma ve tecrübeye dayalıdır, kesin matematiksel kuralları yoktur.)
+
