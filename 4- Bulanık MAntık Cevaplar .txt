@@ -1,0 +1,97 @@
+1. Soru:
+  c) Bulanıklaştırma (Fuzzification)
+2. Soru:
+  d) Bulanık Mantık Sistemleri kesin olmayan, bozuk, gürültülü giriş bilgileri alabilir
+3. Soru (Yanlış tanım):
+  a) Veri Tabanı (Data Base): Bulanık çıkışların genel ifadesidir.  
+(Veri tabanı, üyelik fonksiyonlarını tutar)
+4. Soru (Avantaj değildir):
+  b) Bulanık sistem tasarımına sistematik bir yaklaşım yoktur
+5. Soru:
+  a) Normal bulanık küme
+6. Soru:
+  c) Veri Tabanı (Data Base)
+7. Soru (Dezavantaj değildir):
+  b) Yüksek doğruluk gerektiren problemler için uygundur
+8. Soru:
+  d) Users System
+9. Soru:
+  b) TAKAGI-SUGENO-KANG (TSK) Yöntemi
+10. Soru:
+  e) En Küçük Üyelik Yöntemi
+11. Soru (En Büyük Üyelik):
+  Grafiğe göre
+  b) 15
+12. Soru (Genellikle kullanılmaz):
+  d) Yüksek Üyelik Yöntemi
+13. Soru:
+  c) Maksimum Üyelik Yöntemi
+14. Soru:
+  d) Bulanık kuralın ağırlığı 0 ise, sınıflandırmada herhangi bir etkinlik değeri yoktur
+15. Soru:
+  d) Bilgi tabanı
+16. Soru:
+  c) Önceden belirlenmiş kurallar ve çıkarım sistemi kullanılarak
+17. Soru (Tek Kazanan):
+  c) En yüksek performans indeksine sahip kuralın sonuç sınıfını seçerek
+18. Soru:
+  a) Singleton tipi
+19. Soru:
+  a) Tek kazanan yöntemi ve ağırlıklı oy yöntemi
+20. Soru:
+  e) Tüm bunların hepsi
+21. Soru:
+  a) Partition, covering'in alt kümesidir
+22. Soru:
+  d) Partition
+23. Soru:
+  a) Bir özelliği belirli alt kümelere bölmek
+24. Soru:
+  a)
+25. Soru:
+  d) Öğrenme kapasiteleri yüksektir
+26. Soru:
+  b) 3
+27. Soru:
+  e) 5
+28. Soru:
+  e) Hepsi
+
+	
+1 Sinapslar perceptron'da nereye karşılık gelir?
+	Cevap: d. Ağırlıklar
+2 Hangisi bulanık çıkarım yöntemidir?
+	Cevap: d. Hepsi
+3 Hangisi bulanık sistemin avantajlarından değildir?
+	Cevap: c. Parametrelerinin belirlenmesi kolaydır. (Aksine zordur)
+4 Normal üyelik fonksiyonlarının özelliği nedir?
+	Cevap: c. Kümenin en az bir elamanının üyelik değeri 1 dir
+5 Hangi üyelik fonksiyonu iki parametre ile ifade edilir?
+	Cevap: c. Gaussian
+6 Hangisi bulanık sistem bileşeni değildir?
+	Cevap: b. Üyelik Tabanı
+7 Sınıflandırıcılarda hangi çıkarım yöntemleri kullanılır?
+	Cevap: c. I-IV (Tek kazanan ve Ağırlıklı oylama)
+8 Hangisi toplama fonksiyonu çeşitlerinden biri değildir?
+	Cevap: c. Minimum
+9 Hangisi YSA yapısında yer alır?
+	Cevap: c. Ara katman
+10 ANFIS'te kural ağırlıklarının normalizasyonu hangi katmandadır?
+	Cevap: d. 3. Katman
+11 Hangisi üyelik fonksiyonu kategorisi değildir?
+	Cevap: c. Normal olmayan üyelik fonksiyonları
+12 Bulanık - YSA sistemlerinin temel avantajı nedir?
+	Cevap: d. YSA sayesinde öğrenme yeteneğine sahip olmaktadırlar
+13 Bulanık kural tabanlı sınıflandırıcıların temel amacı nedir?
+	Cevap: a. Bulanık kuralların kullanılarak giriş verisinin sınıflandırılması
+14 Bulanık küme özelliklerinden biri değildir?
+	Cevap: b. Bir eleman belli bir üyelik değeri ile yalnızca bir kümeye ait olabilir. (Bulanık mantıkta birden fazla kümeye farklı derecelerde ait olabilir)
+15 Durulaştırma yönteminin temel görevi nedir?
+	Cevap: b. Çıkarım sisteminin bulanık çıkışını gerçek çıkışa dönüştürmek
+16 YSA'nın ön işlem aşamasında kullanıldığı model hangisidir?
+	Cevap: d. İşbirlikçi bulanık - YSA modeli
+17 Genetik Bulanık Sistemlerde bilgi tabanı öğrenmesi yaklaşımı değildir?
+	Cevap: d. Genetik adaptif çıkarım sistemi
+18 Bulanık sistemin dezavantajlarındandır?
+	Cevap: d. Hepsi
+
